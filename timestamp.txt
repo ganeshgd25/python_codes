@@ -1,0 +1,24 @@
+Time Format Codes
+%H → Hour (24-hour)       → 15
+%I → Hour (12-hour)       → 03
+%M → Minute               → 45
+%S → Second               → 30
+%p → AM / PM              → PM
+
+Date Format Codes
+%d → Day (01–31)          → 03
+%m → Month number         → 03
+%b → Short month name     → Mar
+%B → Full month name      → March
+%Y → Full year            → 2026
+%y → Short year           → 26
+
+Week Related
+%A → Full weekday name    → Tuesday
+%a → Short weekday name   → Tue
+%w → Weekday number (0=Sun)
+
+Other Useful Ones
+%j → Day number in year   → 062
+%U → Week number (Sunday start)
+%W → Week number (Monday start)
