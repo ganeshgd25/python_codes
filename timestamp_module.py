@@ -47,7 +47,7 @@ print(dt)
 
 now = datetime.now()
 print(now)
-formatted = now.strftime("%d %b %Y , %I:%M %p")
+formatted = now.strftime("%d %B %Y , %I:%M %p")
 print(formatted)
 print("year",now.year)
 change = now.strftime("Today is %A , %d %B %Y ")
