@@ -29,3 +29,13 @@ else:
 
 finally:
     print("Execution completed.")
+
+# else runs ONLY if no exception happened in try.
+# It does NOT check errors separately.
+# It simply runs because no error was triggered.
+
+# 1️ Python runs code inside try
+# 2️ If an error occurs → it immediately jumps to matching except
+# 3️ If NO error occurs → it skips all except blocks
+# 4️ Then else runs
+# 5️ finally always runs
